@@ -1,0 +1,159 @@
+### **1. SECCIÓN "PERSONALIZA TU EXPERIENCIA MADRILEÑA"**
+**Título:** "¡Dinos qué te gusta y te recomendamos planes perfectos!"
+
+**Subtítulo:** "Selecciona tus preferencias para recibir sugerencias personalizadas basadas en tu estilo"
+
+**Intereses personalizados para Madrid (en formato cápsula/tag seleccionable):**
+
+**CATEGORÍAS DE PLANES:**
+- 🍽️ Gastronomía y Tapas
+- 🎭 Cultura y Espectáculos
+- 🍸 Vida Nocturna
+- 🏛️ Museos y Exposiciones
+- 🌳 Planes al Aire Libre
+- 🛍️ Shopping y Mercados
+- 🎵 Música en Vivo
+- 🧘 Wellness y Relax
+- 🎯 Deportes y Aventura
+- 👨‍👩‍👧‍👦 Planes Familiares
+- 💃 Baile y Fiesta
+- 📸 Fotografía e Instagrameable
+- 🎨 Arte Alternativo
+- 🍷 Enología y Catas
+- 🚶 Rutas y Paseos
+
+**ESTILOS DE PLAN:**
+- 💖 Romántico (parejas)
+- 🎉 Social (amigos)
+- 👨‍👩‍👧‍👦 Familiar (con niños)
+- 🧘 Tranquilo (solo/a)
+- 💼 Profesional (networking)
+- 🥂 Celebración (eventos especiales)
+
+**MOMENTOS PREFERIDOS:**
+- ☀️ Mañanas activas
+- 🌞 Tardes culturales
+- 🌇 Atardeceres mágicos
+- 🌙 Noches de fiesta
+- 🌌 Madrugadas aventureras
+
+**PRESUPUESTO:**
+- 💰 Gratis
+- € Económico (<20€)
+- €€ Moderado (20-50€)
+- €€€ Premium (50-100€)
+- 💎 Lujo (>100€)
+
+**Botón:** "✨ VER MIS PLANES PERSONALIZADOS"
+**Enlace:** "Ver todos los intereses disponibles"
+
+---
+
+### **2. PÁGINA DE RESULTADOS INTELIGENTE**
+
+**Header de resultados:**
+"🎉 ¡Encontrados [X] planes perfectos para ti! Combinan: ❤️ Noche con pareja + 🌇 Puesta de sol + 💎 Salamanca + 🍷 Cata de vinos"
+
+**Controles de visualización:**
+
+**Ordenar por:** 
+🔥 Relevancia | 💰 Precio | ⭐ Rating | 🆕 Más nuevos | 👍 Más populares
+
+**Vista:**
+⬜ Grid (3x) | ⬜ Lista | ⬜ Mapa | ⬜ Calendario
+
+**Filtros rápidos:**
+📍 Cerca de mí | 🕒 Hoy/mañana | 💰 Ofertas | 🎟️ Disponibles
+
+---
+
+### **3. TARJETAS DE EVENTOS CON BADGES DINÁMICOS**
+
+**Estructura de cada card:**
+- Imagen destacada con overlay de badges
+- Badges superiores dinámicos (mostrar según condiciones):
+  * "🔥 TOP 10 MADRID" (si trending_score > 90)
+  * "🎯 RECOMENDADO PARA TI" (si match_score > 85%)
+  * "🆕 ESTRENO" (si creado_hace < 7 días)
+  * "⏳ ÚLTIMAS PLAZAS" (si plazas_disponibles < 10% total)
+  * "💰 30% OFF" (si tiene descuento)
+  * "📍 A 500m" (si cerca de ubicación)
+  * "👑 PREMIUM" (si precio_rango = "lujo")
+
+**Contenido de la card:**
+- Título del plan (ej: "Cena con vistas en Azotea del Círculo")
+- Iconos informativos: ⏰ 3h | 👥 2-4 pers | 💰 45€ pp
+- Rating: ⭐⭐⭐⭐⭐ (4.9/5 - 247 reviews)
+- Ubicación: 📍 Gran Vía, Madrid (400m)
+- Etiquetas: #romántico #vistas #gourmet #centro
+- Botones: ❤️ Guardar | 📅 Reservar | 🔍 Ver detalles
+
+---
+
+### **4. SECCIONES ESPECIALES EN HOME**
+
+**A) "COMBINACIONES POPULARES EN MADRID" (Pre-set filters como botones grandes):**
+
+1. **"Date Night Perfecto"** 
+   ❤️ Noche con pareja + 💖 Romántico + €€€ Premium + 📍 Centro
+   *Descripción: "La combinación más reservada para citas especiales"*
+
+2. **"Domingo Familiar Madrileño"**
+   👨‍👩‍👧‍👦 Familia con niños + ☀️ Mañana + € Económico + 🌳 Exterior
+   *Descripción: "Plan perfecto para disfrutar en familia sin gastar mucho"*
+
+3. **"Afterwork con Amigos"**
+   🎉 Con amigos + 🌇 Tarde + 🍸 Vida Nocturna + 📍 Chamberí
+   *Descripción: "De la oficina a la fiesta con los mejores planes"*
+
+4. **"Ruta Cultural Express"**
+   🏛️ Museos + 🎨 Arte + 📸 Instagrameable + 💰 Gratis/€
+   *Descripción: "Arte, cultura y fotos para tu Instagram"*
+
+**B) "RUTAS TEMÁTICAS DE MADRID" (Carrusel horizontal):**
+
+1. **"Ruta de las Azoteas"** 
+   - 3 terrazas con vistas panorámicas
+   - Incluye: Círculo BBAA, The Principal, Gourmet Experience
+   - Duración: 5h | Precio: 60-80€
+
+2. **"Ruta del Tapeo Auténtico"**
+   - 4 bares centenarios
+   - Incluye: La Casa del Abuelo, El Brillante, Casa Labra
+   - Duración: 4h | Precio: 25-40€
+
+3. **"Ruta Cultural de un Día"**
+   - Museo + Exposición + Teatro
+   - Incluye: Prado + Reina Sofía + Teatro Español
+   - Duración: 8h | Precio: 30-50€
+
+**C) "PLANES POR OCASIÓN ESPECIAL" (Grid de ocasiones):**
+- 💖 Aniversario
+- 🎂 Cumpleaños
+- 👩‍❤️‍👨 Primera cita
+- 👋 Despedida de soltero/a
+- 🎓 Graduación
+- 💼 Celebración trabajo
+- 🥂 Noche de chicas/chicos
+- ✈️ Visita de turistas
+
+---
+
+### **5. DASHBOARD DE ESTADÍSTICAS (Data Science Section)**
+
+**Título:** "📊 Madrid en Datos: Lo que más busca la gente"
+
+**Gráficos interactivos:**
+1. **Gráfico de barras:** "Planes más populares por categoría"
+   - Gastronomía: 35%
+   - Cultura: 25%
+   - Noche: 20%
+   - Familia: 15%
+   - Otros: 5%
+
+2. **Heatmap interactivo:** "Horas pico de búsqueda en Madrid"
+   - Eje X: Días de la semana
+   - Eje Y: Horas del día (8:00-02:00)
+   - Intensidad: Número de búsquedas
+
+3. **Mapa de calor:** "Distritos más buscados"

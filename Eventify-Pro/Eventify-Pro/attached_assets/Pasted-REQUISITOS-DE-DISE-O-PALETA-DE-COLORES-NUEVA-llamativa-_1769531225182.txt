@@ -1,0 +1,190 @@
+REQUISITOS DE DISEÑO:
+
+PALETA DE COLORES NUEVA (llamativa y moderna):
+
+Color primario: #FF3B77 (rosa neón vibrante)
+
+Color secundario: #00D4AA (verde aguamarina brillante)
+
+Color acento: #FFD166 (amarillo sol)
+
+Color fondo: #0F0F1A (azul noche oscuro)
+
+Color texto: #FFFFFF (blanco) y #E0E0FF (lavanda claro)
+
+Gradientes para destacar: linear-gradient(135deg, #FF3B77, #FF6B9D)
+
+TIPOGRAFÍA MODERNA:
+
+Títulos: 'Poppins' (bold, 800 weight) - impactante
+
+Texto cuerpo: 'Inter' (clean, legible)
+
+Números/estadísticas: 'Space Grotesk' (techy look)
+
+DISEÑO DE FILTROS DIVERTIDO:
+
+Cada filtro como "cápsula" con icono animado
+
+Efecto glow al seleccionar: box-shadow: 0 0 15px [color]
+
+Animación al hacer hover: scale(1.05) + bounce subtle
+
+Layout de filtros como "panel de control de nave espacial"
+
+CABECERA HERO ATRACTIVA:
+
+Título con efecto gradiente animado
+
+Slogan: "¡Tu plan perfecto en Madrid te espera! 🎉"
+
+Ilustración SVG de Madrid con puntos de interés que brillan
+
+Partículas animadas en background (JavaScript canvas)
+
+TARJETAS DE EVENTOS REDISEÑADAS:
+
+Glassmorphism effect: backdrop-filter: blur(10px)
+
+Border animado con gradiente que se mueve
+
+Hover: Card levita + muestra más información
+
+Badges con iconos divertidos: 🔥 🚀 ⭐ 🎯
+
+Imágenes con esquinas redondeadas asimétricas
+
+ANIMACIONES Y MICROINTERACCIONES:
+
+Los filtros "flotan" suavemente con animation: float 3s infinite
+
+Las tarjetas aparecen con fade-in staggered
+
+Botones con efecto "press" al hacer clic
+
+Transiciones suaves entre estados
+
+COMPONENTES ESPECIALES:
+a) "Rueda de la suerte" para plan aleatorio:
+
+Botón giratorio que selecciona filtros aleatorios
+
+Efecto visual de ruleta al hacer clic
+
+b) Indicador de "Match percentage":
+
+Círculo de progreso mostrando % de coincidencia
+
+Color cambia según %: rojo(0%) → amarillo(50%) → verde(100%)
+
+c) Modo "Party mode":
+
+Toggle que activa colores más vibrantes y animaciones extras
+
+Efectos confetti al encontrar plan perfecto
+
+DISEÑO RESPONSIVE MEJORADO:
+
+Mobile: Filtros en drawer lateral deslizable
+
+Tablet: Grid adaptable con masonry layout
+
+Desktop: Layout dividido 30/70 (filtros/resultados)
+
+ELEMENTOS DE GAMIFICACIÓN:
+
+Puntos por usar filtros: "¡Combinación descubierta! +10 pts"
+
+Logros: "Explorador nocturno", "Gurú cultural", "Rey del tapeo"
+
+Barra de progreso de "Estilo Madrid" que sube con uso
+
+EFECTOS VISUALES ESPECIALES:
+
+Background con gradiente animado sutil
+
+Efecto parallax en scroll
+
+Iconos con animación Lottie (reemplazar Font Awesome)
+
+Loader personalizado: Logo de Madrid que se rellena
+
+TEMAS DE COLOR OPCIONALES:
+
+Tema "Madrid de día" (colores claros, azules y blancos)
+
+Tema "Madrid de noche" (oscuro con neones, activado después de 20:00)
+
+Tema "Fiesta" (colores rainbow, activado en fin de semana)
+
+MEJORAS DE UX:
+
+Búsqueda con autocompletado predictivo
+
+"Filtros inteligentes" que sugieren combinaciones populares
+
+Preview rápida al hover sobre tarjeta
+
+Modo comparación lado a lado
+
+IMPLEMENTACIÓN TÉCNICA:
+
+Usar CSS variables para theming
+
+Implementar con CSS Grid y Flexbox
+
+Animaciones con CSS keyframes y JavaScript ligero
+
+Optimizar para rendimiento (lazy loading imágenes)
+
+INCLUIR:
+
+Nuevo archivo CSS con todos los estyles
+
+JavaScript para animaciones interactivas
+
+Assets: SVG personalizados, imágenes de placeholder atractivas
+
+Fuentes de Google Fonts actualizadas
+
+El objetivo es que la página se sienta como una app moderna, divertida y adictiva, no como un directorio aburrido de eventos.
+
+text
+
+---
+
+## **PROMPT COMBINADO** (si quieres ambas cosas juntas):
+Necesito corregir dos aspectos de mi página web de eventos en Madrid:
+
+PARTE 1: LOS FILTROS NO FUNCIONAN
+El sistema de filtrado está roto. Cuando selecciono preferencias como "noche con pareja" + "premium" + "centro", no filtra correctamente. Necesito:
+
+Función filtrarEventos() que combine múltiples filtros con lógica AND entre categorías
+
+Depuración con console.log para ver qué filtros se aplican
+
+Botón de prueba para verificar que cada filtro funciona individualmente
+
+Mensaje claro cuando no hay resultados
+
+PARTE 2: DISEÑO ABURRIDO
+Quiero un rediseño completo con:
+
+Paleta vibrante: #FF3B77, #00D4AA, #FFD166 sobre fondo oscuro
+
+Tarjetas con efecto glassmorphism y hover animado
+
+Filtros como cápsulas con iconos y efectos al seleccionar
+
+Animaciones sutiles pero profesionales
+
+Elementos de gamificación (puntos, logros)
+
+Totalmente responsive
+
+Implementar ambas correcciones manteniendo la funcionalidad existente.
+
+text
+
+**Consejo:** Usa estos prompts en **V0.dev** o **ChatGPT + StackBlitz**. Si necesitas ayuda paso a paso para implementar algo específico, ¡avísame!
+

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-body: 'Inter', sans-serif;
+  --font-display: 'Poppins', sans-serif;
+  --font-tech: 'Space Grotesk', sans-serif;
+
+  /* Pastel Palette */
+  --background: 240 25% 98%;
+  --foreground: 240 10% 10%;
+
+  /* Soft Pastel Pink Primary */
+  --primary: 341 100% 90%;
+  --primary-foreground: 341 40% 30%;
+
+  /* Soft Lavender/Pastel Secondary */
+  --secondary: 260 100% 95%;
+  --secondary-foreground: 260 40% 30%;
+
+  /* Mint/Pastel Accent */
+  --accent: 160 100% 95%;
+  --accent-foreground: 160 40% 30%;
+
+  --muted: 240 10% 90%;
+  --muted-foreground: 240 5% 40%;
+
+  --border: 240 10% 90%;
+  --input: 240 10% 90%;
+  --ring: 341 100% 90%;
+
+  --radius: 1.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F8F8FB] text-[#2D2D2D] antialiased selection:bg-primary/20 selection:text-primary;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-extrabold tracking-tight;
+  }
+  
+  .font-tech {
+    font-family: var(--font-tech);
+  }
+}
+
+/* Custom Utilities */
+.glass-panel {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl;
+}
+
+.neon-glow-primary {
+  box-shadow: 0 0 15px hsl(var(--primary) / 0.5);
+}
+
+.neon-glow-secondary {
+  box-shadow: 0 0 15px hsl(var(--secondary) / 0.5);
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FF3B77] to-[#FF6B9D];
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-move 5s linear infinite;
+}
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Scrollbar hiding */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

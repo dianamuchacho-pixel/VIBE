@@ -1,0 +1,55 @@
+Rediseña el modelo con las siguientes instrecciones:
+/madrid-plans/
+├── index.html # Página principal
+├── styles/
+│ ├── main.css # Estilos generales
+│ ├── components.css # Estilos de componentes
+│ ├── animations.css # Animaciones CSS
+│ └── responsive.css # Media queries
+├── scripts/
+│ ├── app.js # Lógica principal
+│ ├── filters.js # Sistema de filtrado
+│ ├── data-manager.js # Gestión de datos
+│ ├── ui-components.js # Componentes UI
+│ ├── analytics.js # Estadísticas y tracking
+│ └── offline.js # Funcionalidad offline
+├── data/
+│ ├── events.js # 100 eventos en array
+│ ├── categories.js # Categorías y tags
+│ └── locations.js # Ubicaciones de Madrid
+├── assets/
+│ ├── images/ # Imágenes de eventos
+│ ├── icons/ # Iconos SVG
+│ ├── fonts/ # Fuentes locales
+│ └── illustrations/ # Ilustraciones UI
+├── utils/
+│ ├── storage.js # localStorage wrapper
+│ ├── api-simulator.js # Simular API calls
+│ └── helpers.js # Funciones utilitarias
+├── service-worker.js # PWA functionality
+├── manifest.json # Web app manifest
+└── README.md # Documentación del proyecto
+
+INSTRUCCIONES DE IMPLEMENTACIÓN
+Primero: Crear estructura HTML semántica con todas las secciones
+Segundo: Implementar CSS con la paleta de colores y tipografía
+
+Tercero: Crear array con 100 eventos realistas de Madrid
+
+Cuarto: Implementar sistema de filtrado y matching
+
+Quinto: Añadir interactividad y animaciones
+
+Sexto: Implementar funcionalidades extra (favoritos, compartir, etc.)
+
+Séptimo: Optimizar para mobile y agregar PWA features
+
+Octavo: Crear dashboard de estadísticas con gráficos simulados
+
+Noveno: Añadir estados de carga, error y vacío
+
+Décimo: Documentar y preparar para presentación
+
+Nota: Usar nombres reales de lugares en Madrid, precios realistas y descripciones atractivas en español. Los datos deben ser lo suficientemente ricos para demostrar análisis de datos en tu Master.
+
+Cambia los nombres de las opcines filtros y redaccion de la parte que dide (Hagamos que sea persona= dado que la clocaste igual al ejemplo que te pase y adaptalo mas a los tipos de planes del promt, pero manten el mismo diseño de plan personalizado

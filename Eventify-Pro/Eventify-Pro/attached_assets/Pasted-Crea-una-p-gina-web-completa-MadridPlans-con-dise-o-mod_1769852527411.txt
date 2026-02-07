@@ -1,0 +1,320 @@
+Crea una página web completa "MadridPlans" con diseño moderno similar a la imagen de referencia pero adaptado a planes y eventos en Madrid. La página debe incluir:
+
+---
+
+### **1. SECCIÓN "PERSONALIZA TU EXPERIENCIA MADRILEÑA"**
+**Título:** "¡Dinos qué te gusta y te recomendamos planes perfectos!"
+
+**Subtítulo:** "Selecciona tus preferencias para recibir sugerencias personalizadas basadas en tu estilo"
+
+**Intereses personalizados para Madrid (en formato cápsula/tag seleccionable):**
+
+**CATEGORÍAS DE PLANES:**
+- 🍽️ Gastronomía y Tapas
+- 🎭 Cultura y Espectáculos
+- 🍸 Vida Nocturna
+- 🏛️ Museos y Exposiciones
+- 🌳 Planes al Aire Libre
+- 🛍️ Shopping y Mercados
+- 🎵 Música en Vivo
+- 🧘 Wellness y Relax
+- 🎯 Deportes y Aventura
+- 👨‍👩‍👧‍👦 Planes Familiares
+- 💃 Baile y Fiesta
+- 📸 Fotografía e Instagrameable
+- 🎨 Arte Alternativo
+- 🍷 Enología y Catas
+- 🚶 Rutas y Paseos
+
+**ESTILOS DE PLAN:**
+- 💖 Romántico (parejas)
+- 🎉 Social (amigos)
+- 👨‍👩‍👧‍👦 Familiar (con niños)
+- 🧘 Tranquilo (solo/a)
+- 💼 Profesional (networking)
+- 🥂 Celebración (eventos especiales)
+
+**MOMENTOS PREFERIDOS:**
+- ☀️ Mañanas activas
+- 🌞 Tardes culturales
+- 🌇 Atardeceres mágicos
+- 🌙 Noches de fiesta
+- 🌌 Madrugadas aventureras
+
+**PRESUPUESTO:**
+- 💰 Gratis
+- € Económico (<20€)
+- €€ Moderado (20-50€)
+- €€€ Premium (50-100€)
+- 💎 Lujo (>100€)
+
+**Botón:** "✨ VER MIS PLANES PERSONALIZADOS"
+**Enlace:** "Ver todos los intereses disponibles"
+
+---
+
+### **2. PÁGINA DE RESULTADOS INTELIGENTE**
+
+**Header de resultados:**
+"🎉 ¡Encontrados [X] planes perfectos para ti! Combinan: ❤️ Noche con pareja + 🌇 Puesta de sol + 💎 Salamanca + 🍷 Cata de vinos"
+
+**Controles de visualización:**
+
+**Ordenar por:** 
+🔥 Relevancia | 💰 Precio | ⭐ Rating | 🆕 Más nuevos | 👍 Más populares
+
+**Vista:**
+⬜ Grid (3x) | ⬜ Lista | ⬜ Mapa | ⬜ Calendario
+
+**Filtros rápidos:**
+📍 Cerca de mí | 🕒 Hoy/mañana | 💰 Ofertas | 🎟️ Disponibles
+
+---
+
+### **3. TARJETAS DE EVENTOS CON BADGES DINÁMICOS**
+
+**Estructura de cada card:**
+- Imagen destacada con overlay de badges
+- Badges superiores dinámicos (mostrar según condiciones):
+  * "🔥 TOP 10 MADRID" (si trending_score > 90)
+  * "🎯 RECOMENDADO PARA TI" (si match_score > 85%)
+  * "🆕 ESTRENO" (si creado_hace < 7 días)
+  * "⏳ ÚLTIMAS PLAZAS" (si plazas_disponibles < 10% total)
+  * "💰 30% OFF" (si tiene descuento)
+  * "📍 A 500m" (si cerca de ubicación)
+  * "👑 PREMIUM" (si precio_rango = "lujo")
+
+**Contenido de la card:**
+- Título del plan (ej: "Cena con vistas en Azotea del Círculo")
+- Iconos informativos: ⏰ 3h | 👥 2-4 pers | 💰 45€ pp
+- Rating: ⭐⭐⭐⭐⭐ (4.9/5 - 247 reviews)
+- Ubicación: 📍 Gran Vía, Madrid (400m)
+- Etiquetas: #romántico #vistas #gourmet #centro
+- Botones: ❤️ Guardar | 📅 Reservar | 🔍 Ver detalles
+
+---
+
+### **4. SECCIONES ESPECIALES EN HOME**
+
+**A) "COMBINACIONES POPULARES EN MADRID" (Pre-set filters como botones grandes):**
+
+1. **"Date Night Perfecto"** 
+   ❤️ Noche con pareja + 💖 Romántico + €€€ Premium + 📍 Centro
+   *Descripción: "La combinación más reservada para citas especiales"*
+
+2. **"Domingo Familiar Madrileño"**
+   👨‍👩‍👧‍👦 Familia con niños + ☀️ Mañana + € Económico + 🌳 Exterior
+   *Descripción: "Plan perfecto para disfrutar en familia sin gastar mucho"*
+
+3. **"Afterwork con Amigos"**
+   🎉 Con amigos + 🌇 Tarde + 🍸 Vida Nocturna + 📍 Chamberí
+   *Descripción: "De la oficina a la fiesta con los mejores planes"*
+
+4. **"Ruta Cultural Express"**
+   🏛️ Museos + 🎨 Arte + 📸 Instagrameable + 💰 Gratis/€
+   *Descripción: "Arte, cultura y fotos para tu Instagram"*
+
+**B) "RUTAS TEMÁTICAS DE MADRID" (Carrusel horizontal):**
+
+1. **"Ruta de las Azoteas"** 
+   - 3 terrazas con vistas panorámicas
+   - Incluye: Círculo BBAA, The Principal, Gourmet Experience
+   - Duración: 5h | Precio: 60-80€
+
+2. **"Ruta del Tapeo Auténtico"**
+   - 4 bares centenarios
+   - Incluye: La Casa del Abuelo, El Brillante, Casa Labra
+   - Duración: 4h | Precio: 25-40€
+
+3. **"Ruta Cultural de un Día"**
+   - Museo + Exposición + Teatro
+   - Incluye: Prado + Reina Sofía + Teatro Español
+   - Duración: 8h | Precio: 30-50€
+
+**C) "PLANES POR OCASIÓN ESPECIAL" (Grid de ocasiones):**
+- 💖 Aniversario
+- 🎂 Cumpleaños
+- 👩‍❤️‍👨 Primera cita
+- 👋 Despedida de soltero/a
+- 🎓 Graduación
+- 💼 Celebración trabajo
+- 🥂 Noche de chicas/chicos
+- ✈️ Visita de turistas
+
+---
+
+### **5. DASHBOARD DE ESTADÍSTICAS (Data Science Section)**
+
+**Título:** "📊 Madrid en Datos: Lo que más busca la gente"
+
+**Gráficos interactivos:**
+1. **Gráfico de barras:** "Planes más populares por categoría"
+   - Gastronomía: 35%
+   - Cultura: 25%
+   - Noche: 20%
+   - Familia: 15%
+   - Otros: 5%
+
+2. **Heatmap interactivo:** "Horas pico de búsqueda en Madrid"
+   - Eje X: Días de la semana
+   - Eje Y: Horas del día (8:00-02:00)
+   - Intensidad: Número de búsquedas
+
+3. **Mapa de calor:** "Distritos más buscados"
+   - Centro: 🔴🔴🔴🔴🔴
+   - Salamanca: 🔴🔴🔴🔴⚪
+   - Malasaña: 🔴🔴🔴⚪⚪
+   - La Latina: 🔴🔴⚪⚪⚪
+   - Chamberí: 🔴⚪⚪⚪⚪
+
+4. **Gráfico de líneas:** "Tendencias temporales"
+   - "En marzo: +40% planes exteriores"
+   - "En julio: +60% terrazas y piscinas"
+   - "En diciembre: +80% mercados navideños"
+
+5. **Gráfico demográfico:** "Preferencias por edad"
+   - 18-24: 🎉 Fiesta (45%)
+   - 25-34: 🍽️ Gastronomía (35%)
+   - 35-44: 👨‍👩‍👧‍👦 Familiar (50%)
+   - 45+: 🏛️ Cultura (60%)
+
+---
+
+### **6. DISEÑO UI/UX ESPECÍFICO**
+
+**Paleta de colores:**
+- Primario: #FF6B6B (rojo coral vibrante)
+- Secundario: #4ECDC4 (turquesa brillante)
+- Acento: #FFD166 (amarillo sol)
+- Éxito: #06D6A0 (verde aguamarina)
+- Información: #118AB2 (azul profesional)
+- Fondo oscuro: #1A1A2E (azul noche)
+- Fondo claro: #F8F9FA (blanco roto)
+- Texto oscuro: #2D3047 (azul oscuro)
+- Texto claro: #FFFFFF (blanco)
+
+**Tipografía:**
+- Títulos: 'Poppins', sans-serif (weights: 700, 800)
+- Texto cuerpo: 'Inter', sans-serif (weights: 400, 500)
+- Cifras/estadísticas: 'Space Grotesk', monospace
+
+**Animaciones y efectos:**
+- Cards: `fade-in` staggered (0.1s delay entre cada una)
+- Filtros: `slide-in-from-left` al abrir
+- Botones: `pulse` effect en CTA principales
+- Hover cards: `scale(1.02)` + `box-shadow` aumentada
+- Selección filtros: `bounce` subtle + cambio de color
+
+**Estados de UI:**
+- **Loading:** Skeletons con animación shimmer
+- **Empty state:** Ilustración + "¡Vaya! No hay planes con esos filtros. Prueba algo diferente"
+- **Error:** Mensaje amigable con botón de reintento
+- **Éxito:** Confetti animation al reservar/guardar
+
+---
+
+### **7. FUNCIONALIDADES COMPLETAS A IMPLEMENTAR**
+
+**Sistema de interacción:**
+- ❤️ **Favoritos:** Guardar en localStorage, sincronizar si hay login
+- 🔗 **Compartir:** WhatsApp, Instagram, Twitter, Copiar enlace
+- 📅 **Agendar:** Exportar a Google Calendar/Apple Calendar (.ics)
+- 📄 **PDF:** Descargar ficha del plan con todos los detalles
+- ⭐ **Reviews:** Sistema de 1-5 estrellas con comentarios
+- 💬 **Chat:** Simular chat con organizador (respuestas automáticas)
+- 🗺️ **Mapa:** OpenStreetMap embed con ubicación exacta
+- 📴 **Offline:** PWA que guarda últimos 20 planes vistos
+- 🔔 **Notificaciones:** "Recordatorio: Tu plan empieza en 2h"
+
+**Filtros avanzados:**
+- 📍 Radio de distancia (1km, 3km, 5km, 10km, toda Madrid)
+- 🕒 Franja horaria específica (ej: 20:00-23:00)
+- 👥 Número exacto de personas (1, 2, 3-5, 6-10, 10+)
+- ♿ Accesibilidad (silla ruedas, ascensor, baño adaptado)
+- 🐕 Pet friendly (sí/no)
+- 🚭 Espacio fumadores/no fumadores
+- 🅿️ Parking disponible (sí/no/pago/gratis)
+
+---
+
+### **8. ESTRUCTURA DE DATOS (100 EVENTOS)**
+
+**Requisitos de distribución:**
+- **15 planes** 'noche con pareja': tags: ["noche_pareja", "romántico"]
+- **10 planes** 'familiares con niños': tags: ["familia", "niños"]
+- **20 planes** 'con amigos': tags: ["amigos", "grupo", "fiesta"]
+- **5 eventos mínimo** por cada uno de 8 distritos madrileños
+- **Por precio:** 20 gratis | 30 económicos | 30 moderados | 15 premium | 5 lujo
+- **Por horario:** 15 mañana | 25 tarde | 40 noche | 10 madrugada | 10 todo el día
+- **Por ubicación:** 60 interiores | 35 exteriores | 5 mixtos
+
+**Estructura JSON de cada evento:**
+```javascript
+{
+  id: "EV-001",
+  titulo: "Cena con Vistas en Azotea del Círculo",
+  slug: "cena-vistas-azotea-circulo",
+  descripcion_corta: "Cena gourmet con las mejores vistas de Madrid",
+  descripcion_larga: "Disfruta de una experiencia única...",
+  categoria: ["gastronomia", "vistas", "premium"],
+  tags: ["noche_pareja", "romántico", "gourmet", "azotea", "centro"],
+  fecha_inicio: "2024-04-15",
+  fecha_fin: "2024-12-31",
+  hora_inicio: "21:00",
+  hora_fin: "00:00",
+  recurrente: false,
+  dias_semana: ["viernes", "sábado"],
+  ubicacion: {
+    nombre: "Círculo de Bellas Artes",
+    direccion: "Calle de Alcalá, 42, 28014 Madrid",
+    distrito: "Centro",
+    barrio: "Gran Vía",
+    lat: 40.4192,
+    lng: -3.6946,
+    metro: ["Sevilla", "Banco de España"],
+    parking: true
+  },
+  precio: {
+    base: 85,
+    moneda: "EUR",
+    rango: "premium",
+    incluye: ["Cena 4 platos", "Copa de cava", "Acceso azotea"],
+    descuento: null
+  },
+  capacidad: {
+    total: 50,
+    disponibles: 15,
+    min_personas: 2,
+    max_personas: 4
+  },
+  caracteristicas: {
+    interior_exterior: "interior",
+    pet_friendly: false,
+    accesible: true,
+    wifi: true,
+    aire_acondicionado: true,
+    terraza: true
+  },
+  multimedia: {
+    imagen_principal: "azotea-circulo.jpg",
+    galeria: ["img1.jpg", "img2.jpg", "img3.jpg"],
+    video_url: null
+  },
+  organizador: {
+    nombre: "Círculo de Bellas Artes",
+    rating: 4.9,
+    eventos_realizados: 245,
+    verificado: true
+  },
+  stats: {
+    rating_promedio: 4.9,
+    total_valoraciones: 247,
+    veces_guardado: 342,
+    veces_visto: 1250,
+    trending_score: 92,
+    match_score: 0 // se calcula según usuario
+  },
+  badges: [], // se calculan dinámicamente
+  creado_el: "2024-01-10T10:30:00Z",
+  actualizado_el: "2024-03-01T15:45:00Z"
+}

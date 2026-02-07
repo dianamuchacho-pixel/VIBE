@@ -1,0 +1,175 @@
+Crear una aplicación web completa tipo "Eventbrite para planes en Madrid" con sistema de filtros tipo "licuadora" donde el usuario combina múltiples preferencias como ingredientes.
+
+1. **ESTRUCTURA PRINCIPAL:**
+   - Navbar fija con: Logo "MadridPlans" + Buscador rápido + Menú hamburguesa (mobile)
+   - Hero section con slogan: "Mezcla tus preferencias y encuentra tu plan ideal"
+   - Layout con CSS Grid (sidebar filters + main content)
+   - Footer con: Contacto, Mapa del sitio, Download App buttons
+
+2. **SISTEMA DE FILTROS "LICUADORA" INTERACTIVO:**
+   Diseño visual tipo "panel de control" donde el usuario selecciona ingredientes:
+
+   **SECCIÓN A: CONTEXTO SOCIAL** (icono 👥)
+   - Noche con pareja (❤️)
+   - Plan familiar con niños (👨‍👩‍👧‍👦)
+   - Salida con amigos (🎉)
+   - Cita romántica (🌹)
+   - Solo adventure (🧘)
+   - Networking profesional (💼)
+   - Despedida de soltero/a (🥂)
+   - Encuentro de amigas (👯)
+
+   **SECCIÓN B: MOMENTO DEL DÍA** (icono ⏰)
+   - Desayuno especial (☕ 8:00-11:00)
+   - Mañana activa (🌞 11:00-14:00)
+   - Tarde cultural (🏛️ 14:00-19:00)
+   - Puesta de sol (🌇 19:00-21:00)
+   - Noche temprana (🌙 21:00-00:00)
+   - Madrugada (🌌 00:00-06:00)
+   - Brunch del fin de semana (🥞 11:00-16:00)
+
+   **SECCIÓN C: ESTILO DE PLAN** (icono 🎭)
+   - Alegre y festivo (🥳)
+   - Relajado y tranquilo (😌)
+   - Cultural e intelectual (📚)
+   - Deportivo y activo (🏃)
+   - Romántico e íntimo (💖)
+   - Lujoso y exclusivo (✨)
+   - Alternativo/hipster (🎨)
+   - Gastronómico (🍽️)
+   - Musical/bailable (🎵)
+
+   **SECCIÓN D: UBICACIÓN** (icono 📍) - Distritos de Madrid:
+   - Sol/Gran Vía (🎭)
+   - Malasaña/Chueca (🌈)
+   - Salamanca/Retiro (💎)
+   - La Latina/Lavapiés (🍷)
+   - Chamberí/Argüelles (🏛️)
+   - Huertas/Las Letras (📖)
+   - Conde Duque/Argüelles (🎻)
+   - Fuera de M-30 (🚗)
+   - Cualquiera me vale (🎯)
+
+   **SECCIÓN E: PRESUPUESTO** (icono 💰)
+   - Slider de rango: 0€ a 150€
+   - Quick selects: Gratis | Económico (<20€) | Medio (20-50€) | Premium (50-100€) | Lujo (>100€)
+   - Mostrar contador: "X planes dentro de tu presupuesto"
+
+   **SECCIÓN F: CARACTERÍSTICAS** (icono ✅)
+   - Solo interior (🏠)
+   - Solo al aire libre (🌳)
+   - Con reserva necesaria (📅)
+   - Espontáneo (hoy/mañana) (🎲)
+   - Pet friendly (🐕)
+   - Accesible silla ruedas (♿)
+   - Instagrameable (📸)
+   - Con descuento estudiante (🎓)
+
+   **BOTÓN PRINCIPAL:** "🍹 MEZCLAR FILTROS" con animación de licuadora
+   **BOTÓN SECUNDARIO:** "🎲 PLAN SORPRESA" (elige combinación aleatoria)
+
+3. **BASE DE DATOS AMPLIA - 100 EVENTOS DETALLADOS:**
+   AMPLÍA LA BASE DE DATOS A 100 EVENTOS CON ESTA ESTRUCTURA. Asegúrate que haya al menos:
+
+   **15 PLANES PARA 'NOCHE CON PAREJA':**
+   - 5 cenas románticas con vistas
+   - 5 espectáculos íntimos (flamenco, jazz)
+   - 5 experiencias únicas (baile, talleres juntos)
+
+   **10 PLANES 'FAMILIARES CON NIÑOS':**
+   - 3 museos interactivos
+   - 4 parques temáticos/talleres
+   - 3 espectáculos infantiles
+
+   **20 PLANES 'CON AMIGOS':**
+   - 6 planes de tarde-noche (afterworks)
+   - 7 actividades grupales (escape rooms, karaoke)
+   - 4 rutas de tapas/bares
+   - 3 eventos deportivos para grupos
+
+   **5 EVENTOS POR CADA DISTRITO DE MADRID** (8 distritos = 40 eventos)
+   - Centro (Sol, Gran Vía)
+   - Malasaña/Chueca
+   - Salamanca/Retiro
+   - La Latina/Lavapiés
+   - Chamberí/Argüelles
+   - Huertas/Las Letras
+   - Conde Duque/Moncloa
+   - Fuera de M-30 (Casa de Campo, etc.)
+
+   **VARIEDAD EN TODOS LOS RANGOS DE PRECIO:**
+   - 20 eventos Gratis (0€)
+   - 30 eventos Económicos (1-20€)
+   - 30 eventos Moderados (21-50€)
+   - 15 eventos Premium (51-100€)
+   - 5 eventos Lujo (100€+)
+
+   **EVENTOS PARA TODAS LAS HORAS DEL DÍA:**
+   - 15 eventos Mañana (8:00-12:00)
+   - 25 eventos Tarde (12:00-20:00)
+   - 40 eventos Noche (20:00-02:00)
+   - 10 eventos Madrugada (02:00-08:00)
+   - 10 eventos Todo el día
+
+   **ACTIVIDADES INTERIORES Y EXTERIORES:**
+   - 60 eventos Interiores
+   - 35 eventos Exteriores
+   - 5 eventos Mixtos (ambos)
+
+   **ESTRUCTURA DE CADA EVENTO (JSON completo):**
+   ```javascript
+   {
+     id: 1,
+     titulo: "Cena con vistas en la azotea del Círculo",
+     descripcion_larga: "Disfruta de una cena gourmet mientras Madrid se ilumina a tus pies...",
+     categoria_principal: "Gastronomía",
+     categoria_secundaria: "Experiencia",
+     tags: ["noche_pareja", "romántico", "vistas_panoramicas", "gourmet", 
+            "interior", "lujo", "cita_especial", "azotea", "centro"],
+     fecha_inicio: "2024-03-15",
+     fecha_fin: "2024-12-31",
+     hora_inicio: "21:00",
+     hora_fin: "00:00",
+     ubicacion_exacta: "Círculo de Bellas Artes, Calle de Alcalá, 42",
+     distrito: "Centro",
+     barrio: "Gran Vía",
+     lat: 40.4192,
+     lng: -3.6946,
+     precio_base: 85,
+     moneda: "EUR",
+     precio_rango: "premium",
+     incluye: ["Cena 4 platos", "Copa de cava", "Acceso azotea", "Fotos profesionales"],
+     duracion_horas: 3,
+     grupo_ideal: "pareja",
+     grupo_min: 2,
+     grupo_max: 2,
+     edad_minima: 18,
+     ambiente: "romántico",
+     intensidad: "tranquilo",
+     interior_exterior: "interior",
+     pet_friendly: false,
+     accesible: true,
+     parking_cercano: true,
+     metro_cercano: ["Sevilla", "Banco de España"],
+     imagenes: ["azotea1.jpg", "azotea2.jpg", "azotea3.jpg"],
+     rating_promedio: 4.9,
+     total_reviews: 247,
+     reviews: [
+       {usuario: "María G.", rating: 5, comentario: "Increíble para aniversario"},
+       {usuario: "Carlos R.", rating: 4, comentario: "Buenas vistas, comida regular"}
+     ],
+     organizador: "Círculo de Bellas Artes",
+     telefono_contacto: "+34 915 32 12 00",
+     email_contacto: "eventos@circulobellasartes.com",
+     web: "https://www.circulobellasartes.com",
+     disponibilidad: "alta",
+     plazas_totales: 50,
+     plazas_disponibles: 15,
+     requiere_reserva: true,
+     politica_cancelacion: "48h antes",
+     destacado: true,
+     trending_score: 95,
+     veces_guardado: 342,
+     creado_el: "2024-01-10",
+     actualizado_el: "2024-02-20"
+   }
