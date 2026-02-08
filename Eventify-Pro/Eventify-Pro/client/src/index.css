@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+  ::selection {
+    background-color: rgb(59 130 246 / 0.2); /* blue-500/20 */
+    color: rgb(30 58 138); /* blue-900 */
+  }
+
 :root {
   --font-body: 'Inter', sans-serif;
   --font-display: 'Poppins', sans-serif;
@@ -40,13 +45,7 @@
     @apply bg-[#F8F8FB] text-[#2D2D2D] antialiased;
     font-family: var(--font-body);
   }
-
-  ::selection {
-    background-color: rgb(59 130 246 / 0.2); /* blue-500/20 */
-    color: rgb(30 58 138); /* blue-900 */
-  }
 }
-
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     @apply font-extrabold tracking-tight;
