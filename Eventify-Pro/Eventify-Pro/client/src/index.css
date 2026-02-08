@@ -37,7 +37,7 @@
 
 @layer base {
   body {
-    @apply bg-[#F8F8FB] text-[#2D2D2D] antialiased selection:bg-primary/20 selection:text-primary;
+    @apply bg-[#F8F8FB] text-[#2D2D2D] antialiased selection:bg-blue-500/20 selection:text-primary;
     font-family: var(--font-body);
   }
 
